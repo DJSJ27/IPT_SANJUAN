@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* White text color */
+    text-align: center; /* Center align text in the body */
+    
+    /* Background image settings */
+    background-image: url('1.jpg'); /* Ensure the path to your image is correct */
+    background-size: cover; /* Make the image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center center; /* Center the image both horizontally and vertically */
+    height: 100vh; /* Ensure the background takes full height of the viewport */
+
+    /* Flexbox to center text */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    flex-direction: column; /* Stack items vertically */
+}
+
+header {
+    color: white; /* White text color in header */
+    padding: 20px 0; /* Add padding for spacing */
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Space between links */
+    font-size: 18px; /* Link font size */
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+section {
+    margin: 50px 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly dark background for each section */
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
